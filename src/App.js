@@ -10,7 +10,7 @@ const App = () => {
     return (
         <div>
             <button onClick={() => onButtonClick()}>Click Me!</button>
-
+            {console.log('count: ', count)}
             <h1>Current Count: {count}</h1>
         </div>
     ); 
